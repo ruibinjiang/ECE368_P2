@@ -98,6 +98,7 @@ int main(int argc, char **argv)
     free (hCode);
 
     killTree(treeHead);
+    return 0;
 }
 
 int count_freq(char *inFile, int *freq){
